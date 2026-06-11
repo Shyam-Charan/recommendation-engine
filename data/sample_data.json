@@ -1,0 +1,8 @@
+{
+    "users": ["user_1", "user_2", "user_3"],
+    "items": ["item_1", "item_2", "item_3"],
+    "ratings": [
+        {"user": "user_1", "item": "item_1", "rating": 5},
+        {"user": "user_2", "item": "item_2", "rating": 4}
+    ]
+}
