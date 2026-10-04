@@ -12,7 +12,7 @@ Recommends items based on item feature similarity.
 Recommends items based on user behaviour patterns.
 
 ### Similarity Engine
-Computes cosine similarity and matrix factorization.
+Computes cosine similarity.
 
 ## Data Flow
 

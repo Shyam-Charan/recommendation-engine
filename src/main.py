@@ -1,7 +1,13 @@
 """Runnable recommendation engine demonstration."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import numpy as np
-from content_based import recommend as content_recommend
-from collaborative import recommend as collaborative_recommend
+
+from src.content_based import recommend as content_recommend
+from src.collaborative import recommend as collaborative_recommend
 
 
 def main():
